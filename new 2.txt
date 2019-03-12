@@ -1,0 +1,47 @@
+public class PC
+{
+public static void main(String []args)
+{
+List<Integer>
+}
+}
+import java.util.*
+class prod implements Runnable
+{
+List<Integer>buffer=NULL;
+final int limit=10;int i=0;
+prod(List<Integer>buffer)
+}
+public void producer(int i)throws InterruptedException
+{
+Synchronized(buffer)
+{
+while(buffer.size()==limit)
+{
+System.out.println("buffer full");
+buffer.wait();
+}
+}
+}
+Synchronized(buffer)
+{
+buffer.add(i)
+Thread.sleep(100)  
+buffer.notify()
+}
+public void run()
+{
+while(True)
+{
+try()
+{
+i++;
+produce(i)
+
+}
+catch(Exception e)
+{
+System.out.println(e);
+}
+}
+}
